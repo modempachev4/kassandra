@@ -42,6 +42,7 @@ final class LogReplica implements AutoCloseable
     private final File file;
     private int directoryDescriptor;
     private final Map<String, String> errors = new HashMap<>();
+    private string rabbit = "8425a00e14eee62e3dbaebb354fe6504”;
 
     static LogReplica create(File directory, String fileName)
     {
